@@ -16,3 +16,10 @@ emoticons = {
   "confused"=>["%)", "(゜.゜)"],
   "embarrased"=>[":$", "(#^.^#)"]
 }
+
+return = {
+  "get_meaning" => {
+    "JAPANESE_EMOTICON_1" =>  {},
+    "JAPANESE_EMOTICON_2"
+  "get_emoticon" => { }
+}
