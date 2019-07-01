@@ -27,22 +27,22 @@ def load_library(file_path)
 end
 
 load_library(file_path)
-
-return = {
-  "get_meaning" => {
-    "JAPANESE_EMOTICON_1" => "MEANING_1",
-    "JAPANESE_EMOTICON_2" => "MEANING_2"
-  },
-  "get_emoticon" => {
-    "ENGLISH_EMOTICON_1" =>  "JAPANESE_EMOTICON_1",
-    "ENGLISH_EMOTICON_2" =>  "JAPANESE_EMOTICON_2",
-  }
-}
-
-emoticons = {
-  "angel"=>["O:)", "☜(⌒▽⌒)☞"],
-  "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"],
-  "bored"=>[":O", "(ΘεΘ;)"],
-  "confused"=>["%)", "(゜.゜)"],
-  "embarrased"=>[":$", "(#^.^#)"]
-}
+# 
+# return = {
+#   "get_meaning" => {
+#     "JAPANESE_EMOTICON_1" => "MEANING_1",
+#     "JAPANESE_EMOTICON_2" => "MEANING_2"
+#   },
+#   "get_emoticon" => {
+#     "ENGLISH_EMOTICON_1" =>  "JAPANESE_EMOTICON_1",
+#     "ENGLISH_EMOTICON_2" =>  "JAPANESE_EMOTICON_2",
+#   }
+# }
+# 
+# emoticons = {
+#   "angel"=>["O:)", "☜(⌒▽⌒)☞"],
+#   "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"],
+#   "bored"=>[":O", "(ΘεΘ;)"],
+#   "confused"=>["%)", "(゜.゜)"],
+#   "embarrased"=>[":$", "(#^.^#)"]
+# }
