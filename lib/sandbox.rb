@@ -5,13 +5,13 @@ def load_library(file_path)
   require "yaml"
   emoticons = YAML.load_file(file_path)
   #=>
-      emoticons = {
-        "angel"=>["O:)", "☜(⌒▽⌒)☞"],
-        "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"],
-        "bored"=>[":O", "(ΘεΘ;)"],
-        "confused"=>["%)", "(゜.゜)"],
-        "embarrased"=>[":$", "(#^.^#)"]
-      }
+      # emoticons = {
+      #   "angel"=>["O:)", "☜(⌒▽⌒)☞"],
+      #   "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"],
+      #   "bored"=>[":O", "(ΘεΘ;)"],
+      #   "confused"=>["%)", "(゜.゜)"],
+      #   "embarrased"=>[":$", "(#^.^#)"]
+      # }
   #now need to transform the emoticons hash into the right format
   #initiate cleaned emoticons hash
   emoticons_cleaned = {
@@ -20,10 +20,9 @@ def load_library(file_path)
   }
   #set each Japanese emoticon equal to the key in the get_meaning hash
   emoticons.each do |meaning, emoticons|
-    get_meaning["#{emoticons[1]}"] = meaning
-
+    emoticons_cleaned[get_meaning]["#{emoticons[1]}"] = meaning
   end
-
+  puts emoticons_cleaned
 end
 
 return = {
