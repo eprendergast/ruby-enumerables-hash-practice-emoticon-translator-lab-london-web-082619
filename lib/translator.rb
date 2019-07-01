@@ -39,6 +39,11 @@ def get_japanese_emoticon(file_path, emoticon)
   end
 end
 
+#takes a Japanese emoticon and returns its meaning in English.
+def get_english_meaning(file_path, emoticon)
+  # code goes here
+end
+
 #
 # return = {
 #   "get_meaning" => {
@@ -50,8 +55,3 @@ end
 #     "ENGLISH_EMOTICON_2" =>  "JAPANESE_EMOTICON_2",
 #   }
 # }
-
-#takes a Japanese emoticon and returns its meaning in English.
-def get_english_meaning
-  # code goes here
-end
