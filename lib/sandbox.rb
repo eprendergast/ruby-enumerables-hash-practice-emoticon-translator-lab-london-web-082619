@@ -8,3 +8,11 @@ def load_library(file_path)
 end
 
 load_library(file_path)
+
+emoticons = {
+  "angel"=>["O:)", "☜(⌒▽⌒)☞"], 
+  "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"], 
+  "bored"=>[":O", "(ΘεΘ;)"], 
+  "confused"=>["%)", "(゜.゜)"], 
+  "embarrased"=>[":$", "(#^.^#)"]
+}
