@@ -27,7 +27,7 @@ def load_library(file_path)
 end
 
 load_library(file_path)
-# 
+#
 # return = {
 #   "get_meaning" => {
 #     "JAPANESE_EMOTICON_1" => "MEANING_1",
@@ -38,7 +38,7 @@ load_library(file_path)
 #     "ENGLISH_EMOTICON_2" =>  "JAPANESE_EMOTICON_2",
 #   }
 # }
-# 
+#
 # emoticons = {
 #   "angel"=>["O:)", "☜(⌒▽⌒)☞"],
 #   "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"],
