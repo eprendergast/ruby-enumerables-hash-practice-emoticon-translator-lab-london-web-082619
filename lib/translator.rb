@@ -31,7 +31,7 @@ end
 
 #takes a traditional Western emoticon, like `:)` and translate it to its Japanese version.
 def get_japanese_emoticon(file_path, emoticon)
-  # code goes here
+  load_library(file_path)
 end
 
 #takes a Japanese emoticon and returns its meaning in English.
