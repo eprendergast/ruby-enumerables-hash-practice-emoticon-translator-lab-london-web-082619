@@ -20,7 +20,7 @@ def load_library(file_path)
   }
   #set each Japanese emoticon equal to the key in the get_meaning hash
   emoticons.each do |meaning, emoticons|
-    emoticons_cleaned[get_meaning]["#{emoticons[1]}"] = meaning
+    emoticons_cleaned["get_meaning"]["#{emoticons[1]}"] = meaning
   end
   puts emoticons_cleaned
 end
