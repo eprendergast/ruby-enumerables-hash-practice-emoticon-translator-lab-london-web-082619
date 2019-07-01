@@ -29,12 +29,8 @@ def load_library(file_path)
   emoticons_cleaned
 end
 
-
-
-
-
 #takes a traditional Western emoticon, like `:)` and translate it to its Japanese version.
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path, emoticon)
   # code goes here
 end
 
