@@ -41,7 +41,8 @@ end
 
 #takes a Japanese emoticon and returns its meaning in English.
 def get_english_meaning(file_path, emoticon)
-  # code goes here
+  dictionary = load_library(file_path)
+  
 end
 
 #
