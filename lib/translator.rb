@@ -10,6 +10,11 @@ def load_library(file_path)
 end
 
 
+
+
+
+
+
 #takes a traditional Western emoticon, like `:)` and translate it to its Japanese version.
 def get_japanese_emoticon
   # code goes here
