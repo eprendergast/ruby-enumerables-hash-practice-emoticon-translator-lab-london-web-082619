@@ -34,7 +34,7 @@ def get_japanese_emoticon(file_path, emoticon)
   dictionary = load_library(file_path)
   if dictionary["get_emoticon"][emoticon]
     dictionary["get_emoticon"][emoticon]
-  else 
+  else
     puts "Sorry, that emoticon was not found"
   end
 end
