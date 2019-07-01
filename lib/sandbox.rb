@@ -24,6 +24,8 @@ def load_library(file_path)
   end
   puts emoticons_cleaned
 end
+
+load_library(file_path)
 #
 # return = {
 #   "get_meaning" => {
