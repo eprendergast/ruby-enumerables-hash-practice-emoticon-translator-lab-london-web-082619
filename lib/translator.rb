@@ -32,7 +32,20 @@ end
 #takes a traditional Western emoticon, like `:)` and translate it to its Japanese version.
 def get_japanese_emoticon(file_path, emoticon)
   dictionary = load_library(file_path)
+  dictionary["get_emoticon"][emoticon]
 end
+
+#
+# return = {
+#   "get_meaning" => {
+#     "JAPANESE_EMOTICON_1" => "MEANING_1",
+#     "JAPANESE_EMOTICON_2" => "MEANING_2"
+#   },
+#   "get_emoticon" => {
+#     "ENGLISH_EMOTICON_1" =>  "JAPANESE_EMOTICON_1",
+#     "ENGLISH_EMOTICON_2" =>  "JAPANESE_EMOTICON_2",
+#   }
+# }
 
 #takes a Japanese emoticon and returns its meaning in English.
 def get_english_meaning
